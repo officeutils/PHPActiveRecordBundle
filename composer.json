@@ -1,5 +1,6 @@
 {
   "name": "officeutils/phpactiverecordbundle",
+  "version": "1.0.0"
   "type": "symfony-bundle",
   "description": "The \"Symfony 2\" bundle for easy use PHPActiveRecord library in project",
   "license": "MIT",
