@@ -1,6 +1,5 @@
 {
   "name": "officeutils/phpactiverecordbundle",
-  "version": "1.0.0"
   "type": "symfony-bundle",
   "description": "The \"Symfony 2\" bundle for easy use PHPActiveRecord library in project",
   "license": "MIT",
@@ -10,5 +9,10 @@
   "require": {
     "phpactiverecord": ">=1.0.0",
     "pear/log": "1.12.9"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.1.0-dev"
+    }
   }
 }
