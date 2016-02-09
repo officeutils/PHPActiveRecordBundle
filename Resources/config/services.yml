@@ -1,0 +1,13 @@
+services:
+#    office_utils_active_record.example:
+#        class: OfficeUtils\ActiveRecordBundle\Example
+#        arguments: ["@service_id", "plain_value", %parameter%]
+#    app.tokens.action_listener:
+#         class: OfficeUtils\ActiveRecordBundle\EventListener\DBRequestEventListener
+#         arguments: ["%db%"]
+#         tags:
+#         - { name: kernel.event_listener, event: kernel.request, method: onKernelRequest }
+
+    ar_service:
+         class: OfficeUtils\ActiveRecordBundle\Service\ActiveRecordService
+         arguments: ["%db%"]
