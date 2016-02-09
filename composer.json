@@ -1,0 +1,13 @@
+{
+  "name": "officeutils/phpactiverecordbundle",
+  "type": "symfony-bundle",
+  "description": "The \"Symfony 2\" bundle for easy use PHPActiveRecord library in project",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": { "": "src/" }
+  },
+  "require": {
+    "phpactiverecord": ">=1.0.0",
+    "pear/log": "1.12.9"
+  }
+}
