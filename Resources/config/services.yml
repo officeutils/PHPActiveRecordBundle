@@ -1,4 +1,4 @@
 services:
     ar_service:
          class: OfficeUtils\ActiveRecordBundle\Service\ActiveRecordService
-         arguments: ["%db%"]
+         arguments: ["%ar_service.db%"]

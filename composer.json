@@ -10,23 +10,6 @@
     "phpactiverecord": ">=1.0.0",
     "pear/log": "1.12.9"
   },
-  "repositories":[
-    {
-      "type":"package",
-      "package":{
-        "name":"phpactiverecord",
-        "version":"1.1.0",
-        "source" : {
-          "type":"git",
-          "url":"https://github.com/jpfuentes2/php-activerecord/",
-          "reference":"master"
-        },
-        "autoload":{
-          "files":["ActiveRecord.php"]
-        }
-      }
-    }
- ],
   "extra": {
     "branch-alias": {
       "dev-master": "0.1.0-dev"
