@@ -66,7 +66,7 @@ class AppKernel extends Kernel
 }
 ```
 
-Step 3: Add database configuration to app/Resources/config.yml
+Step 3: Add database configuration to app/config/parameters.yml
 
 ```yml
     ar_service.db:

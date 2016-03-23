@@ -11,6 +11,7 @@ namespace OfficeUtils\ActiveRecordBundle\Service;
 
 class ActiveRecordService
 {
+    public $cfg;
 
     /**
      * ActiveRecordService constructor.
@@ -19,6 +20,7 @@ class ActiveRecordService
     {
         \ActiveRecord\Config::initialize(function($cfg) use ($newcfg)
         {
+            $this->cfg = $newcfg;
             $cfg->set_model_directory($newcfg['model_directory']);
             $cfg->set_connections($newcfg['connections']);
             $cfg->set_default_connection($newcfg['default_connection']);
